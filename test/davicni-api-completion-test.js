@@ -36,6 +36,7 @@ describe('OpenAI Davinci Tests',  function () {
     };
 
     try {
+      console.log(`Davinci API Conpletion Test: input = '${prompt.replace(/\n/gi, ' ')}'`);
       const response = await got.post(url, { json: params, headers: headers }).json();
       output = `${prompt}${response.choices[0].text}`;
       console.log(output);
