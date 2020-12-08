@@ -1,0 +1,29 @@
+{
+  "name": "openai-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node app.js",
+    "test": "npx mocha --timeout 60000 --recursive ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuzzy-logic/openai-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuzzy-logic/openai-sandbox/issues"
+  },
+  "homepage": "https://github.com/fuzzy-logic/openai-sandbox#readme",
+  "dependencies": {
+    "got": "^11.8.0"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^8.2.1"
+  }
+}
