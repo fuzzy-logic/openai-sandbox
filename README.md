@@ -1,5 +1,7 @@
 # openai-sandbox
 
+OpenAI API Reference
+@see https://beta.openai.com/docs/api-reference
 
 ## Run tests
 
